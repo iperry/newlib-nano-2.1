@@ -2551,7 +2551,7 @@ esac
 
 
 
-host_makefile_frag=${srcdir}/../config/default.mh
+host_makefile_frag=`cd $srcdir/../config;pwd`/default.mh
 
 host_makefile_frag_path=$host_makefile_frag
 
